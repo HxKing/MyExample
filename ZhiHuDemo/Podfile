@@ -1,0 +1,7 @@
+pod 'AFNetworking'
+pod 'RESideMenu'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'SDCycleScrollView'

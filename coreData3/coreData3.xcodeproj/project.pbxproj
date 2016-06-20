@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFBF5CD31CF53AD2008DD7D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF5CD21CF53AD2008DD7D9 /* main.m */; };
+		EFBF5CD61CF53AD2008DD7D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF5CD51CF53AD2008DD7D9 /* AppDelegate.m */; };
+		EFBF5CD91CF53AD2008DD7D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF5CD81CF53AD2008DD7D9 /* ViewController.m */; };
+		EFBF5CDC1CF53AD2008DD7D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBF5CDA1CF53AD2008DD7D9 /* Main.storyboard */; };
+		EFBF5CDE1CF53AD2008DD7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBF5CDD1CF53AD2008DD7D9 /* Assets.xcassets */; };
+		EFBF5CE11CF53AD2008DD7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBF5CDF1CF53AD2008DD7D9 /* LaunchScreen.storyboard */; };
+		EFBF5CED1CF53B55008DD7D9 /* KKCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF5CEC1CF53B55008DD7D9 /* KKCoreData.m */; };
+		EFBF5CF01CF53F49008DD7D9 /* KKModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFBF5CEE1CF53F49008DD7D9 /* KKModel.xcdatamodeld */; };
+		EFBF5CF31CF53FE9008DD7D9 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF5CF21CF53FE9008DD7D9 /* Dog.m */; };
+		EFBF5CF61CF55687008DD7D9 /* CoreDataOP.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF5CF51CF55687008DD7D9 /* CoreDataOP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFBF5CCE1CF53AD2008DD7D9 /* coreData3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreData3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBF5CD21CF53AD2008DD7D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFBF5CD41CF53AD2008DD7D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFBF5CD51CF53AD2008DD7D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFBF5CD71CF53AD2008DD7D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFBF5CD81CF53AD2008DD7D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFBF5CDB1CF53AD2008DD7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFBF5CDD1CF53AD2008DD7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBF5CE01CF53AD2008DD7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFBF5CE21CF53AD2008DD7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBF5CEB1CF53B55008DD7D9 /* KKCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCoreData.h; sourceTree = "<group>"; };
+		EFBF5CEC1CF53B55008DD7D9 /* KKCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCoreData.m; sourceTree = "<group>"; };
+		EFBF5CEF1CF53F49008DD7D9 /* KKModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KKModel.xcdatamodel; sourceTree = "<group>"; };
+		EFBF5CF11CF53FE9008DD7D9 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		EFBF5CF21CF53FE9008DD7D9 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		EFBF5CF41CF55687008DD7D9 /* CoreDataOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataOP.h; sourceTree = "<group>"; };
+		EFBF5CF51CF55687008DD7D9 /* CoreDataOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataOP.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBF5CCB1CF53AD2008DD7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFBF5CC51CF53AD2008DD7D9 = {
+			isa = PBXGroup;
+			children = (
+				EFBF5CD01CF53AD2008DD7D9 /* coreData3 */,
+				EFBF5CCF1CF53AD2008DD7D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBF5CCF1CF53AD2008DD7D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF5CCE1CF53AD2008DD7D9 /* coreData3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBF5CD01CF53AD2008DD7D9 /* coreData3 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF5CEE1CF53F49008DD7D9 /* KKModel.xcdatamodeld */,
+				EFBF5CD41CF53AD2008DD7D9 /* AppDelegate.h */,
+				EFBF5CD51CF53AD2008DD7D9 /* AppDelegate.m */,
+				EFBF5CD71CF53AD2008DD7D9 /* ViewController.h */,
+				EFBF5CD81CF53AD2008DD7D9 /* ViewController.m */,
+				EFBF5CDA1CF53AD2008DD7D9 /* Main.storyboard */,
+				EFBF5CDD1CF53AD2008DD7D9 /* Assets.xcassets */,
+				EFBF5CDF1CF53AD2008DD7D9 /* LaunchScreen.storyboard */,
+				EFBF5CE21CF53AD2008DD7D9 /* Info.plist */,
+				EFBF5CEB1CF53B55008DD7D9 /* KKCoreData.h */,
+				EFBF5CEC1CF53B55008DD7D9 /* KKCoreData.m */,
+				EFBF5CF11CF53FE9008DD7D9 /* Dog.h */,
+				EFBF5CF21CF53FE9008DD7D9 /* Dog.m */,
+				EFBF5CD11CF53AD2008DD7D9 /* Supporting Files */,
+				EFBF5CF41CF55687008DD7D9 /* CoreDataOP.h */,
+				EFBF5CF51CF55687008DD7D9 /* CoreDataOP.m */,
+			);
+			path = coreData3;
+			sourceTree = "<group>";
+		};
+		EFBF5CD11CF53AD2008DD7D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF5CD21CF53AD2008DD7D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBF5CCD1CF53AD2008DD7D9 /* coreData3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBF5CE51CF53AD2008DD7D9 /* Build configuration list for PBXNativeTarget "coreData3" */;
+			buildPhases = (
+				EFBF5CCA1CF53AD2008DD7D9 /* Sources */,
+				EFBF5CCB1CF53AD2008DD7D9 /* Frameworks */,
+				EFBF5CCC1CF53AD2008DD7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coreData3;
+			productName = coreData3;
+			productReference = EFBF5CCE1CF53AD2008DD7D9 /* coreData3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBF5CC61CF53AD2008DD7D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王亚康";
+				TargetAttributes = {
+					EFBF5CCD1CF53AD2008DD7D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EFBF5CC91CF53AD2008DD7D9 /* Build configuration list for PBXProject "coreData3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBF5CC51CF53AD2008DD7D9;
+			productRefGroup = EFBF5CCF1CF53AD2008DD7D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBF5CCD1CF53AD2008DD7D9 /* coreData3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBF5CCC1CF53AD2008DD7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBF5CE11CF53AD2008DD7D9 /* LaunchScreen.storyboard in Resources */,
+				EFBF5CDE1CF53AD2008DD7D9 /* Assets.xcassets in Resources */,
+				EFBF5CDC1CF53AD2008DD7D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBF5CCA1CF53AD2008DD7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBF5CF31CF53FE9008DD7D9 /* Dog.m in Sources */,
+				EFBF5CD91CF53AD2008DD7D9 /* ViewController.m in Sources */,
+				EFBF5CD61CF53AD2008DD7D9 /* AppDelegate.m in Sources */,
+				EFBF5CF01CF53F49008DD7D9 /* KKModel.xcdatamodeld in Sources */,
+				EFBF5CF61CF55687008DD7D9 /* CoreDataOP.m in Sources */,
+				EFBF5CD31CF53AD2008DD7D9 /* main.m in Sources */,
+				EFBF5CED1CF53B55008DD7D9 /* KKCoreData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFBF5CDA1CF53AD2008DD7D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBF5CDB1CF53AD2008DD7D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFBF5CDF1CF53AD2008DD7D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBF5CE01CF53AD2008DD7D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFBF5CE31CF53AD2008DD7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFBF5CE41CF53AD2008DD7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBF5CE61CF53AD2008DD7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coreData3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.coreData3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFBF5CE71CF53AD2008DD7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coreData3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.coreData3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBF5CC91CF53AD2008DD7D9 /* Build configuration list for PBXProject "coreData3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBF5CE31CF53AD2008DD7D9 /* Debug */,
+				EFBF5CE41CF53AD2008DD7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBF5CE51CF53AD2008DD7D9 /* Build configuration list for PBXNativeTarget "coreData3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBF5CE61CF53AD2008DD7D9 /* Debug */,
+				EFBF5CE71CF53AD2008DD7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFBF5CEE1CF53F49008DD7D9 /* KKModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFBF5CEF1CF53F49008DD7D9 /* KKModel.xcdatamodel */,
+			);
+			currentVersion = EFBF5CEF1CF53F49008DD7D9 /* KKModel.xcdatamodel */;
+			name = KKModel.xcdatamodeld;
+			path = ../KKModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFBF5CC61CF53AD2008DD7D9 /* Project object */;
+}

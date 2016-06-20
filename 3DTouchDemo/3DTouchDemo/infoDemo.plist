@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>京东</string>
+		<key>path</key>
+		<string>https://www.jd.com/</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>baidu</string>
+		<key>path</key>
+		<string>https://www.baidu.com/</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>tmall</string>
+		<key>path</key>
+		<string>https://www.tmall.com/</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>github</string>
+		<key>path</key>
+		<string>https://github.com/</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>www.taobao.com</string>
+		<key>path</key>
+		<string>https://www.taobao.com/</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>code4app</string>
+		<key>path</key>
+		<string>http://www.code4app.com/index.php</string>
+	</dict>
+</array>
+</plist>
